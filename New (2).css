@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap");
+.sedan-sc-regular {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 10px;
+  font-family: "Sedan SC", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-wrap: wrap;
+  text-transform: capitalize;
+  background-color: black;
+}
+.text {
+  width: 40%;
+  color: white;
+}
+.thirdsection {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.span {
+  color: white;
+}
+.one {
+  color: #e9e519;
+}
+
+.section {
+  display: flex;
+}
+#header {
+  display: flex;
+  align-items: center;
+  background: black;
+}
+.imges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+}
+.nav,
+a {
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 2px;
+  color: aliceblue;
+}
+
+.logo .icon {
+  color: aliceblue;
+  size: 50px;
+}
+.btn {
+  color: #dad70f;
+  border-radius: 1.3em;
+  margin-left: 150px;
+  border: solid aliceblue 1px;
+}
+.nav,
+a:hover {
+  color: #e9e519;
+}
+
+.main .home h2 {
+  color: aliceblue;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding-top: 200px;
+  font-size: 2.4em;
+  font-weight: 700;
+}
+.main .home h2 span {
+  color: #e9e519;
+  line-height: 1.4;
+}
+
+.main .home h3 {
+  color: aliceblue;
+  font-size: 1.6em;
+  font-weight: 100;
+  align-items: self-end;
+}
+.main .img {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  background: url(perfume.png) no-repeat fixed;
+  background-position: top right;
+  background-attachment: scroll;
+  padding-left: 600px;
+  padding-top: 40px;
+}
+.botn {
+  background-color: rgb(57, 57, 57);
+  color: white;
+  border-radius: 1.4em;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 0.937em 2.187em;
+}
+h5 {
+  color: aliceblue;
+  font-size: 2.7em;
+  font-weight: 400;
+}
+p {
+  color: aliceblue;
+  font-size: 1.2em;
+  font-weight: 400;
+}

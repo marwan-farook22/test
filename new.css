@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 10px;
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-wrap: wrap;
+  text-transform: capitalize;
+}
+
+.logo {
+  position: relative;
+}
+.nav,
+a {
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 2px;
+  color: aliceblue;
+}
+
+.logo .icon {
+  color: aliceblue;
+  size: 50px;
+}
+.btn {
+  color: #dad70f;
+  border-radius: 1.3em;
+  margin-left: 150px;
+  border: solid aliceblue 1px;
+}
+.nav,
+a:hover {
+  color: #dad70f;
+}
+.home {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 50px;
+  padding-right: 300px;
+}
+.main .home {
+  max-width: 150rem;
+}
+
+.main h2 span {
+  font-weight: bolder;
+  font-size: 2.4em;
+  text-align: center;
+}
+.home h3 {
+  color: aliceblue;
+  display: flex;
+  font-weight: 300;
+  font-size: 1.3em;
+  padding-top: 900px;
+  padding-right: 300px;
+  line-height: 1.5;
+  padding: 3rem 0;
+}
+.home .img {
+  display: inline-block;
+  position: relative;
+  align-content: end;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 90vh;
+  background-position: right;
+  background-attachment: scroll;
+  padding-top: 100px;
+}
